@@ -41,3 +41,10 @@
     width: 150px;
     height: 150px;
 }
+
+.album_container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}

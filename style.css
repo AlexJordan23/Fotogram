@@ -51,11 +51,7 @@
     
 }
 
-.album_container2{
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-}
+
 
 @media (max-width: 1296px){
     .header_container{
@@ -70,6 +66,16 @@
 }
 
 @media (max-width: 1148px){
+    .album_container{
+        display: block;
+    }
+
+    .album_container2{
+        display: block;
+    }
+}
+
+@media(max-width: 1147px){
     .album_container{
         display: block;
     }

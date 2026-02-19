@@ -2,12 +2,18 @@
     background-color: #06171E;
 }
 
+.header_container{
+    display: flex;
+    align-items: center;
+    padding-top: 6.65px;
+    padding-left: 49.31px;
+}
+
 .fotogram_container{
     width: 215.19px;
     height: 41px;
     color: #FFFFFF;
-    padding-top: 6.65px;
-    padding-left: 49.31px;
+    
 }
 
 .picture_logo{

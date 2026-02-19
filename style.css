@@ -51,9 +51,26 @@
     
 }
 
+.album_container2{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 @media (max-width: 1296px){
     .header_container{
         display: flex;
         justify-content: center;
+    }
+
+    .album_title{
+        font-size: 500%;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 1148px){
+    .album_container{
+        display: block;
     }
 }

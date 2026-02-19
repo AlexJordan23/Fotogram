@@ -41,7 +41,7 @@
     width: 150px;
     height: 150px;
     border-radius: 16px;
-    border: 2px solid #124658;
+    padding-bottom: 48px;
 }
 
 .album_container{

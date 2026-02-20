@@ -74,3 +74,9 @@
         margin: auto;
     }
 }
+
+@media (max-width: 547px){
+    .album_title{
+        font-size: 300%;
+    }
+}

@@ -67,20 +67,10 @@
 
 @media (max-width: 1148px){
     .album_container{
-        display: block;
-    }
-
-    .album_container2{
-        display: block;
-    }
-}
-
-@media(max-width: 1147px){
-    .album_container{
-        display: block;
-    }
-
-    .album_container2{
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        max-width: 400px;
+        margin: auto;
     }
 }

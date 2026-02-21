@@ -7,7 +7,7 @@
     align-items: center;
     padding-top: 6.65px;
     padding-left: 49.31px;
-    gap: 2.26px;
+    gap: 5px;
 }
 
 .fotogram_container{
@@ -27,7 +27,7 @@
     width: 1,175px;
     height: 67px;
     font-family: 'Figtree', sans-serif;
-    font-size: 800%;
+    font-size: 400%;
     font-style: extra-bold;
     height: 56px;
     line-height: 100%;
@@ -42,7 +42,6 @@
     width: 150px;
     height: 150px;
     border-radius: 16px;
-    padding-bottom: 48px;
 }
 
 .album_container{
@@ -64,16 +63,30 @@
         display: flex;
         justify-content: center;
     }
-
-    .album_title{
-        font-size: 500%;
-        padding-top: 80px;
-    }
 }
 
 
 @media (max-width: 547px){
     .album_title{
         font-size: 300%;
+    }
+}
+
+@media(max-width: 560){
+    .album_title{
+        font-size: 200%;
+    }
+}
+
+@media(max-width: 547px){
+    .album_title{
+        font-size: 300%;
+        padding-bottom: 80px;
+    }
+}
+
+@media(max-width: 375px){
+    .album_title{
+        padding-bottom: 160px;
     }
 }

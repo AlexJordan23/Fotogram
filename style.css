@@ -49,6 +49,8 @@
     display: flex;
     justify-content: center;
     gap: 16px;
+    flex-wrap: wrap;
+    max-width: 1200px;
     
 }
 
@@ -69,15 +71,6 @@
     }
 }
 
-@media (max-width: 1148px){
-    .album_container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
-        max-width: 400px;
-        margin: auto;
-    }
-}
 
 @media (max-width: 547px){
     .album_title{

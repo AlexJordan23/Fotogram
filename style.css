@@ -147,7 +147,7 @@
 }
 
 .closebutton:hover,
-.prev-btn:hover,
+.left:hover,
 .next-btn:hover {
     color: #bbb;
 }

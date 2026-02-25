@@ -125,7 +125,7 @@
 }
 
 .left,
-.next-btn {
+.right {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

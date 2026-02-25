@@ -124,7 +124,7 @@
     transition: 0.3s;
 }
 
-.prev-btn,
+.left,
 .next-btn {
     position: absolute;
     top: 50%;

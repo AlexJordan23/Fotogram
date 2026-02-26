@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        
     </head>
     <body class="body_container">
         <div>
@@ -38,12 +38,25 @@
         </div>
 
         <div class="modal" id="img_modal">
-            <span class="closebutton" onclick="closeModal()"></span>
-            <span class="left" onclick="changeImage(-1)"></span>
-            <span class="right" onclick="changeImage(+1)"></span>
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <span class="left" onclick="changeImage(-1)">&#10094;</span>
+            <span class="right" onclick="changeImage(+1)">&#10095;</span>
             <img class="modal_content" id="modal_image">
 
         </div>
+
+        <div class="page_container">
+
+        </div>
+
+        <main class="main_container">
+
+        </main>
+
+        <footer class="footer_container">
+            <h1 class="developer_container">Developer Akademie</h1>
+            <p class="developer_container">c 2023 Developer Akademie GmbH</p>
+        </footer>
         
         <script src="script.js"></script>
     </body>

@@ -158,6 +158,7 @@
 .album_picture {
     cursor: pointer;
     transition: transform 0.2s;
+    object-fit: cover;
 }
 
 .album_picture:hover {

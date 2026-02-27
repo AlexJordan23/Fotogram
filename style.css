@@ -185,7 +185,7 @@ body{
 }
 
 .page_container{
-    min-height: 50vh;
+    min-height: 25vh;
     display: flex;
     flex-direction: column;
 }
